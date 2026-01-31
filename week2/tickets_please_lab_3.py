@@ -1,4 +1,3 @@
-# Lab 3 Solution
 # Variables to test
 age = 25
 has_student_id = True
@@ -8,12 +7,11 @@ is_holiday = False
 # Must be at least 18 AND have a student ID
 if age >= 18 and has_student_id:
     print("Eligible for the Student Discount.")
+
 # 2. Using 'or' with comparison operators
 # Eligible if younger than 12 OR older than 65
-elif age < 10 or age > 60: # rate changed
+if age < 12 or age > 65:
     print("Eligible for the Junior/Senior rate.")
-elif 12 <= age < 18 and not has_student_id:
-    print("Eligible for high school rate")
 else:
     print("Standard ticket rate applies.")
 
@@ -27,4 +25,3 @@ if not is_holiday:
 # (Age is between 18 and 30 inclusive) AND (It is not a holiday)
 if (age >= 18 and age <= 30) and not is_holiday:
     print("You qualify for the 'Young Adult' weekday special!")
-    

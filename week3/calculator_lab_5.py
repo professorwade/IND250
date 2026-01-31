@@ -17,7 +17,7 @@ while True:
 
     # Lab 5 adding factorial operation
     if operation == '!':
-        total = 1
+        total = 1 # i.e. 1 * 2 * 3 ... * x
         if num1 < 0 or not num1.is_integer():
             print("Error: Factorial is only defined for non-negative integers.")
         else:

@@ -66,14 +66,22 @@ if __name__ == '__main__':
         else:
             num2 = float(input("Enter second number: "))
             
-            if op == '+': print(f"Result: {add(num1, num2)}")
-            elif op == '-': print(f"Result: {subtract(num1, num2)}")
-            elif op == '*': print(f"Result: {multiply(num1, num2)}")
-            elif op == '/': print(f"Result: {divide(num1, num2)}")
-            elif op == '**': print(f"Result: {power(num1, num2)}")
-            elif op == '%': print(f"Result: {modulo(num1, num2)}")
-            elif op == '//': print(f"Result: {floor_divide(num1, num2)}")
-            else: print("Invalid operation selected.")
+            if op == '+': 
+                print(f"Result: {add(num1, num2)}")
+            elif op == '-': 
+                print(f"Result: {subtract(num1, num2)}")
+            elif op == '*': 
+                print(f"Result: {multiply(num1, num2)}")
+            elif op == '/': 
+                print(f"Result: {divide(num1, num2)}")
+            elif op == '**': 
+                print(f"Result: {power(num1, num2)}")
+            elif op == '%': 
+                print(f"Result: {modulo(num1, num2)}")
+            elif op == '//': 
+                print(f"Result: {floor_divide(num1, num2)}")
+            else: 
+                print("Invalid operation selected.")
 
         #except ValueError:
         #    print("Error: Please enter a valid numeric value.")

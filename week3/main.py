@@ -1,3 +1,3 @@
-import calculator_lib_lab6
+import calculator_lib
 
-print(calculator_lib_lab6.factorial(5))
+print(calculator_lib.factorial(5))
