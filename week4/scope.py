@@ -2,7 +2,7 @@ def some_function():
     x = 5
     print(x)
 
-print(x) # This will raise a NameError because x is not defined in this scope
+# print(x) # This will raise a NameError because x is not defined in this scope
 
 
 x = 10
