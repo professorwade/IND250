@@ -26,9 +26,9 @@ def read_book():
         whole_book = book.read()
     whole_book = whole_book.lower() # make everything lowercase    
     whole_book = remove_punctuation_translate(whole_book) # remove punctuation
-    tom_sawyer_words = whole_book.split() # splits book into list of words
-    print(FNAME, len(tom_sawyer_words),'words.')
-    return tom_sawyer_words
+    book_words = whole_book.split() # splits book into list of words
+    print(FNAME, len(book_words),'words.')
+    return book_words
 
 def binary_search(word_list, target_word):
     """
