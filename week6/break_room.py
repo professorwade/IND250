@@ -14,7 +14,9 @@ soda_machine.purchase()      # This should succeed!
 soda_machine.refund()        # Get the remaining $0.50 back
 
 # --- VENDING MACHINE LAB (OO) ---   
-# Add a restock(amount) method to the VendingMachine class that allows you to add more items to # the stock. Then, create a break room vending machine and restock it with 10 items. Test by displaying the stock on hand.
+# Add a restock(amount) method to the VendingMachine class that allows you to add more items to 
+# the stock. Then, create a break room vending machine and restock it with 10 items. Test by 
+# displaying the stock on hand.
 
 
 
