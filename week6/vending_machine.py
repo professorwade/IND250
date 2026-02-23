@@ -44,5 +44,3 @@ class VendingMachine:
         else:
             print("No balance to refund.")
 
-    def restock(self, quantity):
-        self.stock = self.stock + quantity
