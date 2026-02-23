@@ -79,4 +79,5 @@ class CoffeeVendingMachine(vm.VendingMachine):
             elif option == 7:
                 break
         
-
+coffee = CoffeeVendingMachine("strong coffee here", 1.0, 5)
+coffee.menu()
