@@ -11,18 +11,24 @@ files = os.listdir('.')
 for f in files:
     print(f)
 
+# print only python files:
+print("\nPython Files:")
+for f in files:
+    if f.endswith('.py'):
+        print(f)
+
 # get operating system
-print(os.name)
+print('OS Name: ',os.name)
 
 # find out if a file exists
-print(os.path.exists('file_handling.py'))
+print('Does dummy.txt exist? ', os.path.exists('dummy.txt'))
 
 # create a file
 Path('new_file.txt').touch()
 # you can also delete, rename, move, etc., but be careful
 
-# walk a directory
-for root, dirs, files in os.walk("."):
+# walk a directory (remember . is the current directory and .. is the parent directory)
+for root, dirs, files in os.walk(".." + os.sep + "week5"):
     print(f"Current Directory: {root}")
     print(f"Subdirectories: {dirs}")
     print(f"Files: {files}")
