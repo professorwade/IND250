@@ -1,0 +1,10 @@
+[
+    {
+        "task": "Eat chocolate cake",
+        "priority": "High"
+    },
+    {
+        "task": "Run a marathon",
+        "priority": "Low"
+    }
+]

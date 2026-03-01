@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tasks>
+    <item priority="High">Fix any bugs</item>
+    <item priority="Med">Check xml file format</item>
+    <item priority="Low">Test out todo xml</item>
+</tasks>
+
